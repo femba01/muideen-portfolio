@@ -2,9 +2,9 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "AI SaaS Dashboard",
+    title: "AI Scientist Research Dashboard",
     description:
-      "Built a scalable analytics dashboard that visualizes real-time operational data using optimized rendering and reusable chart components.",
+      "Worked with a team of developers to build a scalable analytics ai research platform that visualizes real-time operational data using optimized rendering and reusable chart components.",
     image: "/image/projects/chisquares-dashboard.png",
     tech: ["React", "TypeScript", "Tailwind"],
     github: "#",
@@ -24,6 +24,15 @@ const projects = [
     description:
       "Building a super admin dashboard for managing users, permissions, live chat feature with ticketing, and system settings for Joble, a Zartech product.",
     image: "/image/projects/jobpro-super-admin.png",
+    tech: ["React", "TypeScript", "Tailwind"],
+    github: "#",
+    demo: "#",
+  },
+  {
+    title: "Creditframes Loan App Dashboard",
+    description:
+      "Dashboard for managing and tracking loan applications in real-time. Features include user authentication, application tracking, and data visualization.",
+    image: "/image/projects/creditframes.png",
     tech: ["React", "TypeScript", "Tailwind"],
     github: "#",
     demo: "#",
