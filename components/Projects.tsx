@@ -4,7 +4,7 @@ const projects = [
   {
     title: "AI SaaS Dashboard",
     description:
-      "Data driven dashboard for analyzing and visualizing user data.",
+      "Built a scalable analytics dashboard that visualizes real-time operational data using optimized rendering and reusable chart components.",
     image: "/image/projects/chisquares-dashboard.png",
     tech: ["React", "TypeScript", "Tailwind"],
     github: "#",
@@ -20,11 +20,11 @@ const projects = [
     demo: "#",
   },
   {
-    title: "Multiple Website Portfolio",
+    title: "Super Admin Dashboard",
     description:
-      "Showcasing various web development projects and experiences.",
-    image: "/image/projects/websites.jpeg",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
+      "Building a super admin dashboard for managing users, permissions, live chat feature with ticketing, and system settings for Joble, a Zartech product.",
+    image: "/image/projects/jobpro-super-admin.png",
+    tech: ["React", "TypeScript", "Tailwind"],
     github: "#",
     demo: "#",
   },
