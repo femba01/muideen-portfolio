@@ -78,7 +78,7 @@ export default function Hero() {
             transition={{ duration: 5, repeat: Infinity }}
             className="absolute bottom-0 left-0 bg-white/5 backdrop-blur-md border border-white/10 px-6 py-4 rounded-xl"
           >
-            <p className="text-2xl font-bold">6+</p>
+            <p className="text-2xl font-bold">5+</p>
             <p className="text-gray-400 text-sm">Years Experience</p>
           </motion.div>
 
@@ -88,7 +88,7 @@ export default function Hero() {
             transition={{ duration: 6, repeat: Infinity }}
             className="absolute top-0 right-0 bg-white/5 backdrop-blur-md border border-white/10 px-6 py-4 rounded-xl"
           >
-            <p className="text-2xl font-bold">50+</p>
+            <p className="text-2xl font-bold">10+</p>
             <p className="text-gray-400 text-sm">Projects Built</p>
           </motion.div>
 
@@ -108,7 +108,7 @@ export default function Hero() {
             transition={{ duration: 6, repeat: Infinity }}
             className="absolute bottom-10 right-0 bg-white/5 backdrop-blur-md border border-white/10 px-6 py-4 rounded-xl"
           >
-            <p className="text-2xl font-bold">15+</p>
+            <p className="text-2xl font-bold">10+</p>
             <p className="text-gray-400 text-sm">Developers Mentored</p>
           </motion.div>
 
