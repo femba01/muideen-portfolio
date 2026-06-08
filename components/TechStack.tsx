@@ -14,7 +14,10 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiRedux,
+  SiReactquery,
+  SiGraphql,
 } from "react-icons/si";
+import { TbApi } from "react-icons/tb";
 
 const skills = [
   {
@@ -38,9 +41,19 @@ const skills = [
     description: "Utility-first CSS for rapid UI development.",
   },
   {
-    name: "Redux Toolkit",
-    icon: <SiRedux size={40} />,
+    name: "React Query",
+    icon: <SiReactquery size={40} />,
     description: "Predictable global state management.",
+  },
+  {
+    name: "RESTful APIs",
+    icon: <TbApi size={40} />,
+    description: "Building scalable RESTful APIs.",
+  },
+  {
+    name: "GraphQL APIs",
+    icon: <SiGraphql size={40} />,
+    description: "Building scalable GraphQL APIs.",
   },
   {
     name: "WordPress",
