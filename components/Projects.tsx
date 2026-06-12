@@ -8,7 +8,7 @@ const projects = [
     image: "/image/projects/chisquares-dashboard.png",
     tech: ["React", "TypeScript", "Tailwind"],
     github: "#",
-    demo: "#",
+    demo: "https://app.chisquares.com",
   },
   {
     title: "Shipment Management Dashboard",
@@ -16,7 +16,7 @@ const projects = [
       "Dashboard for managing and tracking shipments in real-time.",
     image: "/image/projects/unpause-dashboard.png",
     tech: ["Next.js", "TypeScript", "Tailwind"],
-    github: "#",
+    github: "https://github.com/unpauseglobal/frontend-dev",
     demo: "#",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
       "A modern website for an IT consulting firm that showcases their services, case studies, and contact information. The platform features a responsive design, interactive elements, and optimized performance.",
     image: "/image/projects/ttfltd.png",
     tech: ["Next.js", "TypeScript", "Tailwind"],
-    github: "#",
+    github: "https://github.com/femba01/ttfltd",
     demo: "https://www.ttfltd.com/",
   },
   {
@@ -61,8 +61,17 @@ const projects = [
       "A website for an energy construction company that highlights their projects, services, and expertise in the industry. The platform features a clean design, easy navigation, and engaging content to attract potential clients.",
     image: "/image/projects/phoenix.png",
     tech: ["Next.js", "TypeScript", "Tailwind"],
-    github: "#",
+    github: "https://github.com/femba01/phoenix-webiste",
     demo: "https://phoenix-webiste.vercel.app/",
+  },
+  {
+    title: "An Interior Design and Construction Firm Platform",
+    description:
+      "A website for an interior design firm that showcases their work, services, and expertise. The platform features a clean design, easy navigation, and engaging content to attract potential clients.",
+    image: "/image/projects/silk-lagos.png",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    github: "https://github.com/femba01/silk-lagos",
+    demo: "https://silklagos.vercel.app/",
   },
 ];
 
