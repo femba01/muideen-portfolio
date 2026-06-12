@@ -56,7 +56,7 @@ export default function ProjectCard({
           ))}
         </div>
 
-        {/* <div className="flex gap-6 mt-6 text-sm">
+        <div className="flex gap-6 mt-6 text-sm">
 
           <a
             href={github}
@@ -74,7 +74,7 @@ export default function ProjectCard({
             Live Demo
           </a>
 
-        </div> */}
+        </div>
 
       </div>
     </motion.div>
