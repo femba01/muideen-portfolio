@@ -16,6 +16,7 @@ import {
   SiRedux,
   SiReactquery,
   SiGraphql,
+  SiVite,
 } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 
@@ -28,6 +29,11 @@ const skills = [
   {
     name: "Next.js",
     icon: <SiNextdotjs size={40} />,
+    description: "Full-stack React framework with SSR and routing.",
+  },
+  {
+    name: "Next.js",
+    icon: <SiVite size={40} />,
     description: "Full-stack React framework with SSR and routing.",
   },
   {

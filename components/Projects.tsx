@@ -6,15 +6,24 @@ const projects = [
     description:
       "Worked with a team of developers to build a scalable analytics ai research platform that visualizes real-time operational data using optimized rendering and reusable chart components.",
     image: "/image/projects/chisquares-dashboard.png",
-    tech: ["React", "TypeScript", "Tailwind"],
+    tech: ["React", "Vite", "TypeScript", "Tailwind"],
     github: "#",
     demo: "https://app.chisquares.com",
   },
   {
     title: "Shipment Management Dashboard",
     description:
-      "Dashboard for managing and tracking shipments in real-time.",
+      "Dashboard for creating, managing and tracking shipments in real-time.",
     image: "/image/projects/unpause-dashboard.png",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    github: "https://github.com/unpauseglobal/frontend-dev",
+    demo: "#",
+  },
+  {
+    title: "Shipment Admin Dashboard",
+    description:
+      "Dashboard for managing shipments, users, and system settings for Unpause",
+    image: "/image/projects/shipmentAdmin.png",
     tech: ["Next.js", "TypeScript", "Tailwind"],
     github: "https://github.com/unpauseglobal/frontend-dev",
     demo: "#",

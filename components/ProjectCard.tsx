@@ -58,13 +58,13 @@ export default function ProjectCard({
 
         <div className="flex gap-6 mt-6 text-sm">
 
-          <a
+          {/* <a
             href={github}
             target="_blank"
             className="text-blue-400 hover:underline"
           >
             GitHub
-          </a>
+          </a> */}
 
           <a
             href={demo}
