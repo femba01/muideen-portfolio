@@ -23,3 +23,13 @@ body {
   color: var(--foreground);
   font-family: var(--font-poppins), sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+::selection {
+  background: rgb(59 130 246 / 0.35);
+  color: white;
+}

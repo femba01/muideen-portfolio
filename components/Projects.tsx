@@ -2,59 +2,69 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "AI Scientist Research Dashboard",
+    title: "ProcureFlow",
     description:
-      "Worked with a team of developers to build a scalable analytics ai research platform that visualizes real-time operational data using optimized rendering and reusable chart components.",
-    image: "/image/projects/chisquares-dashboard.png",
-    tech: ["React", "Vite", "TypeScript", "Tailwind"],
-    github: "#",
-    demo: "https://app.chisquares.com",
+      "An end-to-end procurement workspace that helps organizations manage requests, approvals, suppliers, purchase orders, budgets, inventory, and audit trails from one place. Built with React, TypeScript, Tailwind CSS, TanStack Query, and Zustand for state management. And Supabase for authentication and database management.",
+    image: "/image/projects/procureflow.png",
+    tech: ["React", "TypeScript", "Tailwind", "TanStack Query", "Zustand"],
+    github: "https://github.com/femba01/procureFlowApp",
+    demo: "https://procure-flow-app.vercel.app/",
+    featured: true,
   },
-  {
-    title: "Shipment Management Dashboard",
-    description:
-      "Dashboard for creating, managing and tracking shipments in real-time.",
-    image: "/image/projects/unpause-dashboard.png",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    github: "https://github.com/unpauseglobal/frontend-dev",
-    demo: "#",
-  },
-  {
-    title: "Shipment Admin Dashboard",
-    description:
-      "Dashboard for managing shipments, users, and system settings for Unpause",
-    image: "/image/projects/shipmentAdmin.png",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    github: "https://github.com/unpauseglobal/frontend-dev",
-    demo: "#",
-  },
-  {
-    title: "Super Admin Dashboard",
-    description:
-      "Building a super admin dashboard for managing users, permissions, live chat feature with ticketing, and system settings for Joble, a Zartech product.",
-    image: "/image/projects/jobpro-super-admin.png",
-    tech: ["React", "TypeScript", "Tailwind"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "Creditframes Loan App Dashboard",
-    description:
-      "Dashboard for managing and tracking loan applications in real-time. Features include user authentication, application tracking, and data visualization.",
-    image: "/image/projects/creditframes.png",
-    tech: ["React", "TypeScript", "Tailwind"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "An NGO Donation Platform",
-    description:
-      "A donation platform for an NGO that allows users to easily contribute to charitable causes. The platform features a user-friendly interface, secure payment processing, and real-time donation tracking.",
-    image: "/image/projects/childrensgate.png",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    github: "#",
-    demo: "https://childrensgate.org/",
-  },
+  // {
+  //   title: "AI Scientist Research Dashboard",
+  //   description:
+  //     "Worked with a team of developers to build a scalable analytics ai research platform that visualizes real-time operational data using optimized rendering and reusable chart components.",
+  //   image: "/image/projects/chisquares-dashboard.png",
+  //   tech: ["React", "Vite", "TypeScript", "Tailwind"],
+  //   github: "#",
+  //   demo: "https://app.chisquares.com",
+  // },
+  // {
+  //   title: "Shipment Management Dashboard",
+  //   description:
+  //     "Dashboard for creating, managing and tracking shipments in real-time.",
+  //   image: "/image/projects/unpause-dashboard.png",
+  //   tech: ["Next.js", "TypeScript", "Tailwind"],
+  //   github: "https://github.com/unpauseglobal/frontend-dev",
+  //   demo: "#",
+  // },
+  // {
+  //   title: "Shipment Admin Dashboard",
+  //   description:
+  //     "Dashboard for managing shipments, users, and system settings for Unpause",
+  //   image: "/image/projects/shipmentAdmin.png",
+  //   tech: ["Next.js", "TypeScript", "Tailwind"],
+  //   github: "https://github.com/unpauseglobal/frontend-dev",
+  //   demo: "#",
+  // },
+  // {
+  //   title: "Super Admin Dashboard",
+  //   description:
+  //     "Building a super admin dashboard for managing users, permissions, live chat feature with ticketing, and system settings for Joble, a Zartech product.",
+  //   image: "/image/projects/jobpro-super-admin.png",
+  //   tech: ["React", "TypeScript", "Tailwind"],
+  //   github: "#",
+  //   demo: "#",
+  // },
+  // {
+  //   title: "Creditframes Loan App Dashboard",
+  //   description:
+  //     "Dashboard for managing and tracking loan applications in real-time. Features include user authentication, application tracking, and data visualization.",
+  //   image: "/image/projects/creditframes.png",
+  //   tech: ["React", "TypeScript", "Tailwind"],
+  //   github: "#",
+  //   demo: "#",
+  // },
+  // {
+  //   title: "An NGO Donation Platform",
+  //   description:
+  //     "A donation platform for an NGO that allows users to easily contribute to charitable causes. The platform features a user-friendly interface, secure payment processing, and real-time donation tracking.",
+  //   image: "/image/projects/childrensgate.png",
+  //   tech: ["Next.js", "TypeScript", "Tailwind"],
+  //   github: "#",
+  //   demo: "https://childrensgate.org/",
+  // },
   {
     title: "An IT Consulting Firm Platform",
     description:
@@ -88,15 +98,17 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="bg-black text-white py-24 px-6"
+      className="scroll-mt-24 bg-black px-6 py-24 text-white"
     >
-      <h2 className="text-4xl font-bold text-center mb-16">
-        Featured Projects
-      </h2>
+      <div className="mx-auto mb-14 max-w-2xl text-center">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-blue-400">Selected work</p>
+        <h2 className="text-4xl font-bold tracking-tight md:text-5xl">Products built for real-world impact</h2>
+        <p className="mt-5 leading-7 text-gray-400">A selection of dashboards, platforms, and digital products I have designed and engineered.</p>
+      </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+      <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project) => (
+          <ProjectCard key={project.title} {...project} />
         ))}
       </div>
     </section>

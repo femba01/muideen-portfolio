@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Muideen Adeogun - Frontend Developer",
-  description: "I'm a frontend developer specializing in React and Next.js, building high-performance web applications and scalable SaaS dashboards.",
+  description: "I'm a frontend developer specializing in React, Typescript, and Next.js, building high-performance web applications and scalable SaaS dashboards.",
 };
 
 export default function RootLayout({

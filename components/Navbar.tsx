@@ -18,8 +18,6 @@ export default function Navbar() {
   const [active, setActive] = useState("");
   const [open, setOpen] = useState(false);
 
-  console.log(active);
-
   // Detect scroll for navbar style
   useEffect(() => {
     const handleScroll = () => {
@@ -117,6 +115,8 @@ export default function Navbar() {
         <button
           className="md:hidden text-white"
           onClick={() => setOpen(!open)}
+          aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={open}
         >
           {open ? <X size={30} /> : <Menu size={30} />}
         </button>

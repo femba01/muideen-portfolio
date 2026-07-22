@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 import {
   FaReact,
-  FaNodeJs,
   FaHtml5,
 } from "react-icons/fa";
 import { FaPython, FaWordpress } from "react-icons/fa6";
@@ -13,7 +12,6 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
-  SiRedux,
   SiReactquery,
   SiGraphql,
   SiVite,
@@ -32,9 +30,9 @@ const skills = [
     description: "Full-stack React framework with SSR and routing.",
   },
   {
-    name: "Next.js",
+    name: "Vite",
     icon: <SiVite size={40} />,
-    description: "Full-stack React framework with SSR and routing.",
+    description: "Fast tooling for modern frontend development.",
   },
   {
     name: "TypeScript",
@@ -49,7 +47,7 @@ const skills = [
   {
     name: "React Query",
     icon: <SiReactquery size={40} />,
-    description: "Predictable global state management.",
+    description: "Server-state caching, syncing, and data fetching.",
   },
   {
     name: "RESTful APIs",
@@ -84,7 +82,7 @@ export default function TechStack() {
       id="skills"
       className="bg-linear-to-b from-black via-[#0f172a] to-black py-24 px-6 text-white"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
 
         <h2 className="text-4xl font-bold text-center mb-16">
           Skills & Technologies
@@ -104,19 +102,21 @@ export default function TechStack() {
               {/* Glow Hover */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-gradient-to-r from-blue-500/10 to-blue-500/10" />
 
-              <div className="relative z-10">
+              <div className="relative z-10 flex gap-4 items-center">
 
                 <div className="text-blue-400 mb-4">
                   {skill.icon}
                 </div>
 
-                <h3 className="text-lg font-semibold">
-                  {skill.name}
-                </h3>
+                <div>
+                  <h3 className="text-lg font-semibold">
+                    {skill.name}
+                  </h3>
 
                 <p className="text-gray-400 text-sm mt-2">
                   {skill.description}
                 </p>
+                </div>
 
               </div>
 

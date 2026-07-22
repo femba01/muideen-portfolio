@@ -17,7 +17,7 @@ export default function Hero() {
 
 
           <p className="text-gray-200 text-lg">
-            Hi, I'm Muideen Adeogun, building
+            Hi, I&apos;m Muideen Adeogun, building
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold my-6">
@@ -37,7 +37,7 @@ export default function Hero() {
               href="#contact"
               className="px-6 py-3 rounded-full bg-linear-to-r from-blue-500 to-blue-700"
             >
-              Let's Connect
+              Let&apos;s Connect
             </a>
 
             <a
