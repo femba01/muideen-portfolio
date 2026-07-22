@@ -3,7 +3,7 @@
 
 const experiences = [
   {
-    role: "Lead Senior Frontend Engineer",
+    role: "Lead Frontend Engineer",
     company: "Chisquares",
     period: "Dec 2023 - Sep 2025",
     description:
@@ -31,7 +31,7 @@ const experiences = [
       "Developed modular and reusable UI components for healthcare, finance, and e-commerce client applications.",
   },
   {
-    role: "Frontend Web Developer",
+    role: "Frontend Web Developer (Freelancer)",
     company: "TTF Ltd",
     period: "Oct 2019 - Present",
     description:

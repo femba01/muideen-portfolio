@@ -24,23 +24,23 @@
 "use client";
 
 import Link from "next/link";
-import { FaLinkedinIn, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <section>
-            <div id="contact" className="bg-linear-to-b from-[#000413] to-[#020617] text-white py-24 text-center">
-                <h2 className="text-6xl font-bold mb-6">Let's Work Together</h2>
+        <section id="contact" className="scroll-mt-24">
+            <div className="bg-linear-to-b from-[#000413] to-[#020617] px-6 py-24 text-center text-white">
+                <h2 className="text-6xl font-bold mb-6">Let&apos;s Work Together</h2>
 
                 <p className="text-gray-400 mb-8">
-                    I'm open to remote frontend opportunities.
+                    I&apos;m open to remote frontend opportunities.
                 </p>
             </div>
 
             <hr/>
 
-            <footer id="contact" className="bg-linear-to-b from-[#020617] to-[#010410] text-white py-20">
+            <footer className="bg-linear-to-b from-[#020617] to-[#010410] px-6 py-20 text-white">
 
 
 
@@ -73,7 +73,9 @@ export default function Footer() {
                         <a
                             key={index}
                             href={item.link}
-                            target="_blank"
+                            target={item.link.startsWith("mailto:") ? undefined : "_blank"}
+                            rel={item.link.startsWith("mailto:") ? undefined : "noreferrer"}
+                            aria-label={item.link}
                             className="w-16 h-16 flex items-center justify-center rounded-full border border-blue-500/30 text-gray-200 hover:text-white hover:border-blue-500 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] transition"
                         >
                             {item.icon}
