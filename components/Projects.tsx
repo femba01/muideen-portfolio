@@ -6,7 +6,7 @@ const projects = [
     description:
       "An end-to-end procurement workspace that helps organizations manage requests, approvals, suppliers, purchase orders, budgets, inventory, and audit trails from one place. Built with React, TypeScript, Tailwind CSS, TanStack Query, and Zustand for state management. And Supabase for authentication and database management.",
     image: "/image/projects/procureflow.png",
-    tech: ["React", "TypeScript", "Tailwind", "TanStack Query", "Zustand"],
+    tech: ["React", "TypeScript", "Tailwind", "TanStack Query", "Zustand", "Supabase"],
     github: "https://github.com/femba01/procureFlowApp",
     demo: "https://procure-flow-app.vercel.app/",
     featured: true,
@@ -30,14 +30,14 @@ const projects = [
   //   demo: "#",
   // },
   // {
-  //   title: "Shipment Admin Dashboard",
-  //   description:
-  //     "Dashboard for managing shipments, users, and system settings for Unpause",
-  //   image: "/image/projects/shipmentAdmin.png",
-  //   tech: ["Next.js", "TypeScript", "Tailwind"],
-  //   github: "https://github.com/unpauseglobal/frontend-dev",
-  //   demo: "#",
-  // },
+    title: "Shipment Admin Dashboard",
+    description:
+      "Dashboard for managing customer's shipments, procurements, pickups, users management, and system settings for Unpause",
+    image: "/image/projects/shipmentAdmin.png",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    github: "https://github.com/unpauseglobal/frontend-dev",
+    demo: "#",
+  },
   // {
   //   title: "Super Admin Dashboard",
   //   description:
