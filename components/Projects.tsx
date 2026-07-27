@@ -29,7 +29,7 @@ const projects = [
   //   github: "https://github.com/unpauseglobal/frontend-dev",
   //   demo: "#",
   // },
-  // {
+  {
     title: "Shipment Admin Dashboard",
     description:
       "Dashboard for managing customer's shipments, procurements, pickups, users management, and system settings for Unpause",
